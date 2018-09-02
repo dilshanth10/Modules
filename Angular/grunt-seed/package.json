@@ -1,0 +1,26 @@
+{
+  "name": "Kraydel-grunt",
+  "description": "Project to demostrate setting up Protractor, Grunt, Karma, and Angular",
+  "version": "1.0.0",
+  "dependencies": {
+    "angular-bootstrap-npm": "0.14.3",
+    "grunt-spritesmith": "6.5.1",
+    "bootstrap": "3.3.6",
+    "angular-swx-session-storage": "^1.0.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-angular-templates": "~0.5.4",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^2.1.0",
+    "grunt-contrib-jshint": "~1.1.0",
+    "grunt-contrib-less": "~1.4.1",
+    "grunt-contrib-uglify": "~3.0.1",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-env": "^0.4.4",
+    "grunt-preprocess": "^5.1.0",
+    "grunt-run": "^0.2.2",
+    "grunt-version-assets": "^1.1.0",
+    "jshint-stylish": "~2.2.1"
+  }
+}

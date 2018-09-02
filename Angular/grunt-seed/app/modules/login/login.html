@@ -1,0 +1,41 @@
+<div class="container">
+    <div class="form-section">
+        <div class="col-md-4 col-md-offset-4 heading-bottom">
+            <h1>{{vm.systemName}}</h1>
+        </div>
+        <div class="row">
+            <div class="col-md-6" align="center">
+                <img src="assets/global/images/login-logo.png" class="home-page-logo">
+            </div>
+            <form name="userLogin">
+                <div class="col-md-3">
+                    <div class="form-group">
+                        <div>
+                            {{vm.success}}
+                        </div>
+                        <input type="text" id="userName" ng-class="{'red-border': !userLogin.$valid, 'green-border': userLogin.$valid}"
+                            ng-model="vm.userDetails.name" name="userName" class="form-control" placeholder="Username"
+                            ng-required="true" maxlength="50" />
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Password" />
+                    </div>
+                    <div class="form-group" align="right">
+                        <!-- <input type="submit" class="btn btn-primary home-page-btn" /> -->
+                        <button type="submit" id="btn_save" class="btn btn-primary" ng-click="userLogin.$valid && vm.userLogin()">Login</button>
+                    </div>
+                    <div class="form-group" align="center">
+                        <a href="#">Forget Password</a>
+                    </div>
+                </div>
+            </form>
+            <div class="col-md-44 col-md-offset-3">
+                <div>
+                    <!-- {{data.title}} -->
+                    {{vm.userDataFirst}}
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

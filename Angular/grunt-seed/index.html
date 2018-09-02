@@ -1,0 +1,78 @@
+<!doctype html>
+<html class="no-js">
+<head>
+    <meta charset="utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">-->
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="description" content="admin-themes-lab">
+    <meta name="author" content="themes-lab">
+
+	<meta http-equiv="cache-control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+
+    <link rel="shortcut icon" href="assets/global/images/logo/k-fevicon.png"
+          type="image/png">
+    <title>Child Care</title>
+    <link href="css/include.css" rel="stylesheet">
+    <link href="assets/global/css/include-custom.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+
+
+	
+</head>
+<body ng-app="coreModule" ng-controller="mainCtrl as vm" >
+<section class="section-height">
+
+    <!-- END SIDEBAR -->
+    <div class="main-content bg-override">
+        <!-- BEGIN PAGE CONTENT -->
+        <div ng-view class="at-view-slide-in-left page-content" >
+        </div>
+        <!-- END PAGE CONTENT -->
+
+    </div>
+    <!-- END MAIN CONTENT -->
+    <!-- END BUILDER -->
+</section>
+
+
+<!-- END CALL POPUP -->
+<!-- BEGIN ANGULARJS SCRIPTS -->
+<script src="plugins/angular-1.5.9/angular.js"></script>
+<script src="plugins/angular-1.5.9/angular-resource.js"></script>
+<script src="plugins/angular-1.5.9/angular-cookies.js"></script>
+<script src="plugins/angular-1.5.9/angular-sanitize.js"></script>
+<script src="plugins/angular-1.5.9/angular-animate.js"></script>
+<script src="plugins/angular-1.5.9/angular-touch.js"></script>
+<script src="plugins/angular-1.5.9/angular-route.js"></script>
+<script src="plugins/angular-1.5.9/angular-messages.js"></script>																 
+<!-- END ANGULARJS SCRIPTS -->
+
+<script src="app/app.module.js"></script>
+<script src="app/modules/dashboard/carer-dashboard.module.js"></script>
+<script src="app/modules/login/login.module.js"></script>	
+<script src="app/modules/login/login-config.route.js"></script>
+<script src="app/modules/dashboard/user-dashboard.config.route.js"></script>
+<script src="app/modules/dashboard/carer-dashboard.directive.js"></script>
+<script src="app/mainCtrl.js"></script>		
+<script src="app/services/services.login.js"></script>																			
+
+<!-- END ANGULARJS SCRIPTS -->
+<script src="assets/global/plugins/ocLazyLoad/dist/ocLazyLoad.min.js"></script>
+<script src="assets/global/plugins/jquery/jquery-2.2.4.min.js"></script>
+<script src="assets/global/plugins/bootstrap-3.3.6/dist/js/bootstrap.min.js"></script>													 
+
+
+
+</body>
+</html>
