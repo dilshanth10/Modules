@@ -9,11 +9,11 @@
 
 				function carerdashboardController($scope, $rootScope, commonService,
 					$filter, $interval) {
-					var vm = this;
+					//var vm = this;
 
-					vm.num = 0;
+					$scope.num = 0;
 					$interval(function () {
-						vm.num += 1;
+						$scope.num += 1;
 					}, 10);
 
 					var x = commonService.getDetails(function (data) {
